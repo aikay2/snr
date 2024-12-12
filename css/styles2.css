@@ -90,7 +90,7 @@ button:focus {
     animation-play-state: running;
     font-size: 1.25rem;
     font-family: 'Times New Roman', serif;   
-    font-weight: 700;
+    font-weight: 300;
     color: whitesmoke;
     text-align: center;
     margin: 20px;
