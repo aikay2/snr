@@ -6,12 +6,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // When the button is clicked
     startButton.addEventListener('click', function () {
-        scrollMessage.style.animationPlayState = 'running';  // Start scrolling
         // Start playing the background music
         bgMusic.loop = true;
-        bgMusic.play();
-
-        
+        bgMusic.play();        
 
         // Hide the button
         startButton.style.display = 'none';
@@ -20,7 +17,8 @@ document.addEventListener('DOMContentLoaded', function () {
         frame.style.display = 'block';
 
         // Make sure the fade-in effect is triggered
-        frame.style.animation = 'fade 2s ease-in forwards';            
+        frame.style.animation = 'fade 2s ease-in forwards';  
+                  
     });
 });
 
