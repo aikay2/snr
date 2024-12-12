@@ -2,7 +2,7 @@
 const fetchData = () => {
   console.log("Fetching data...");
 
-  fetch("customize.json")  // Adjusted to go up one directory and load the JSON file
+  fetch("customize.json")
       .then(response => {
           console.log("Response received:", response);
           if (!response.ok) {
