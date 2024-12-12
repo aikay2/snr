@@ -46,7 +46,6 @@ button:focus {
 }
 
 
-
 /* Fade-in effect */
 .fade-in {
     animation: fade 2s ease-in forwards;
@@ -86,7 +85,7 @@ button:focus {
 /* Styling for the moving text */
 .text {
     display: inline-block;
-    animation: scroll-up 90s linear 3s infinite;  /* Update duration to control speed */
+    animation: scroll-up 10s linear 3s infinite;  /* Update duration to control speed */
     animation-delay: 0s;
     animation-play-state: running;
     font-size: 1.25rem;
@@ -127,4 +126,6 @@ button:focus {
     font-size: 1.25rem;
     color: #ffdd57;
     text-align: right;
+    margin-bottom: 0%;
 }
+
