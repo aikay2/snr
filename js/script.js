@@ -1,6 +1,6 @@
 // Function to handle the countdown
 const handleCountdown = () => {
-    const birthday = new Date("2024-12-12T00:00:00").getTime(); // Specify birthday date
+    const birthday = new Date("2024-12-14T00:00:00").getTime(); // Specify birthday date
     const countdownBox = document.querySelector(".countdown-wrapper");
 
     function updateCountdown() {
